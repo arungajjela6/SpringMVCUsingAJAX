@@ -25,7 +25,7 @@ public class HomeController {
 	@RequestMapping(value = "/")
 	public ModelAndView list() {
 
-		ModelAndView modelandview = new ModelAndView("home");
+		ModelAndView modelandview = new ModelAndView("homee");
 
 		return modelandview;
 	}
